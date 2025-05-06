@@ -15,9 +15,21 @@ This repository documents the development of a portable LIDAR system for capturi
 
 ## 📂 Repository Structure  
 Portable-LIDAR-VR-Mapping/
-├── data/ # Raw & processed point clouds (.las, .ply)
-├── docs/ # Project paper, poster, and presentations
-├── hardware/ # Component specs and assembly guide
+├── data/
+│ ├── cloudpoint/ # Raw LIDAR scans (.las)
+│ │ └── [timestamped scan files]
+│ └── photos/ # Reference images
+│ ├── technology-building/
+│ └── lidar-setup/
+├── docs/
+│ ├── Final_Paper.docx # Project paper
+│ ├── Poster.pptx # Research poster
+│ └── photos/ # Presentation images
+│ ├── technology-building/
+│ └── lidar-setup/
+├── hardware/
+│ ├── assembly_guide.md # Setup instructions
+│ └── components_list.md # Equipment specs
 └── README.md # You are here!
 
 
@@ -30,6 +42,18 @@ Portable-LIDAR-VR-Mapping/
 - **Portable Power Supply**: Field operation support  
 
 *(See [hardware/components_list.md](hardware/components_list.md) for details.)*  
+
+---
+
+## 🌟 Newly Added Resources  
+### Point Cloud Data  
+- Located in `data/cloudpoint/`  
+- 13 scan files of Technology Building (April 2025)  
+- Example naming: `file_2025-04-18-15-01-09.285.las`  
+
+### Reference Photos  
+- Building images: `data/photos/technology-building/`  
+- Setup documentation: `docs/photos/lidar-setup/`  
 
 ---
 
@@ -56,9 +80,7 @@ Portable-LIDAR-VR-Mapping/
 
 📚 References
 Jensen, J. R. (2003). Remote Sensing of the Environment.
-
 Leishen C16 Manual (https://www.monualsite.com/manual/20809171/Leishen-Intelligent-System-C16-Series.html)
-
 Video Tutorial (https://www.youtube.com/watch?v=HEOoEc363As)
 
 🙏 Acknowledgements
@@ -66,10 +88,13 @@ Funded by Buffalo State University’s Office of Undergraduate Research and NSF 
 Special thanks to:
 
 Dr. Tao Tang (Mentor)
-
 Dr. Sanbani Banerjee (Grant support)
-
 Mr. Jonathan Rosten & Dr. James Mayrose (Engineering Technology Dept.)
 
+---
 
+## 🔗 Quick Links  
+- [View Raw Scans](data/cloudpoint/)  
+- [See Hardware Setup](hardware/)  
+- [Download Presentation](docs/LIDAR_presentation.pdf)  
 
