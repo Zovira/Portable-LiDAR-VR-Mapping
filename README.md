@@ -50,8 +50,8 @@ Portable-LIDAR-VR-Mapping/
 - Example naming: `file_2025-04-18-15-01-09.285.las`  
 
 ### Reference Photos  
-- Building images: `data/photos/technology-building/`  
-- Setup documentation: `docs/photos/lidar-setup/`  
+- Building images: `docs/photos/technology-building/`  
+- Setup images: `docs/photos/lidar-setup/`  
 
 ---
 
