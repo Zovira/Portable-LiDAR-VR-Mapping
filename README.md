@@ -14,24 +14,25 @@ This repository documents the development of a portable LIDAR system for capturi
 ---
 
 ## 📂 Repository Structure  
+```plaintext
 Portable-LIDAR-VR-Mapping/
 ├── data/
-│ ├── cloudpoint/ # Raw LIDAR scans (.las)
-│ │ └── [timestamped scan files]
-│ └── photos/ # Reference images
-│ ├── technology-building/
-│ └── lidar-setup/
+│   ├── cloudpoint/                  # Raw LIDAR scans (.las)
+│   │   └── [timestamped scan files]
+│   └── photos/                      # Reference images
+│       ├── technology-building/
+│       └── lidar-setup/
 ├── docs/
-│ ├── Final_Paper.docx # Project paper
-│ ├── Poster.pptx # Research poster
-│ └── photos/ # Presentation images
-│ ├── technology-building/
-│ └── lidar-setup/
+│   ├── Final_Paper.docx             # Project paper
+│   ├── Poster.pptx                  # Research poster
+│   └── photos/                      # Presentation images
+│       ├── technology-building/
+│       └── lidar-setup/
 ├── hardware/
-│ ├── assembly_guide.md # Setup instructions
-│ └── components_list.md # Equipment specs
-└── README.md # You are here!
-
+│   ├── assembly_guide.md            # Setup instructions
+│   └── components_list.md           # Equipment specs
+└── README.md                        # Project documentation
+```
 
 ---
 
